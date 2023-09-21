@@ -1,0 +1,224 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 10vh;
+    position: fixed;
+    background-color: white;
+}
+
+.nav{
+    max-height: 200px;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-height: 200px;
+}
+.header-central{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.promotions{
+    color: orangered;
+}
+
+.titulo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.topLeft{
+    display: flex;
+    padding-top: 40px;
+    width: 25%;
+}
+.woman{
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.man{
+    font-weight: bold;
+    color: grey;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.topList{
+    display: flex;
+    list-style: none;
+}
+.listaBajoTitulo{
+    padding-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.topRight{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+    width: 300px;
+    border: none;
+    height: 25px;
+    border-bottom: solid 3px;
+}
+.paginas{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 13px;
+    justify-content: flex-end;
+}
+.paginas-vista{
+    margin-right: 10px;
+}
+.paginas-dos{
+    margin-right: 10px;
+}
+.paginas-cuatro{
+    margin-right: 10px;
+}
+.paginas-order{
+    margin-right: 10px;
+}
+.novedades{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    border: 2px blue;
+    padding: 100px;
+    padding-top: 160px;
+
+}
+
+.grid-caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img{
+    height: 450px;
+    width: 250px;
+}
+.precio{
+    font-weight: bold;
+}
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+    padding-top: 75px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+.diez{
+    font-size: 30px;
+    font-weight: bold;
+}
+.newsletter{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.introduceEmail{
+    font-size: 12px;
+}
+.input-email{
+    width: 600px;
+}
+.contact{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+.contacto{
+    font-size: 13px;
+
+}
+.cajitascontacto{
+    display: flex;
+    flex-direction: row;
+}
+.ringring{
+    width: 25px;
+    height: 25px;
+}
+.imgtelefono{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phoneverde{
+    color: turquoise;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    font-size: 13px;
+}
+.ventaOnline{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+.tiendaEmpresas{
+    padding-left: 15px;
+    border-left: 1px solid black;
+    font-size: 13px;
+}
+.listasFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.titularlistasbottom{
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 13px;
+    padding-top: 30px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.pago{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+.listaletras{
+    font-size: 13px;
+    padding-top: 8px;
+}
+.imagenlista{
+    width: 13px;
+    height: 13px;
+}
+.iconoface{
+    padding-top: 8px;
+    align-items: end;
+}
